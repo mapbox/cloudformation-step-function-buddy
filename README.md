@@ -1,4 +1,6 @@
 # cloudformation-step-function-buddy
+[![Build Status](https://travis-ci.org/mapbox/cloudformation-step-function-buddy.svg?branch=master)](https://travis-ci.org/mapbox/cloudformation-step-function-buddy)
+
 Write your Step Function definition in JavaScript (instead of JSON) and validate it
 
 ## Usage
