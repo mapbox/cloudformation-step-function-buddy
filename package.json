@@ -10,8 +10,19 @@
     "lib": "lib"
   },
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "prettier": "^1.12.0"
+  },
+  "prettier": {
+    "singleQuote": true
+  },
   "scripts": {
+    "preformat": "npm run lint",
+    "format": "prettier --single-quote --write \"{*,**/*}.{js,json}\"",
+    "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
