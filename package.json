@@ -1,6 +1,6 @@
 {
   "name": "@mapbox/cloudformation-step-function-buddy",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Write your Step Function definition in JavaScript (instead of JSON) and validate it",
   "main": "index.js",
   "engines": {
