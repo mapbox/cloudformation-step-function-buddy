@@ -1,0 +1,32 @@
+{
+  "name": "@mapbox/cloudformation-step-function-buddy",
+  "version": "0.0.0",
+  "description": "Write your Step Function definition in JavaScript (instead of JSON) and validate it",
+  "main": "index.js",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mapbox/cloudformation-step-function-buddy.git"
+  },
+  "keywords": [
+    "aws",
+    "step-function",
+    "cloudformation"
+  ],
+  "author": "Mapbox",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/mapbox/cloudformation-step-function-buddy/issues"
+  },
+  "homepage": "https://github.com/mapbox/cloudformation-step-function-buddy#readme"
+}
